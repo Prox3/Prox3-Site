@@ -50,10 +50,31 @@
 </head>
 <body>
 	<!-- Header -->
-    <!-- Fim header -->
-    <div id="tudo">
-    	<!-- Como Pensamos -->
-    	<!-- Fim Como Pensamos -->
+  <div id="struct-header">
+  	<div id="header">
+    	<header>
+ 				<a id="logo_header" title="Início" href="./">Prox3</a>
+        <ul id="navigator">
+          <li><a target="_self" href="#">Serviços</a></li>
+          <li><a target="_self" href="#">Clientes</a></li>
+          <li><a target="_self" href="#">Contato</a></li>
+          <li>|</li>
+          <li><a target="_self" href="#">Portfolio</a></li>
+          <li><a target="_self" href="#">Blog</a></li>
+          <li style="margin-right:0"><a target="_self" href="#">Facebook</a></li>
+        </ul>
+      </header>
+    </div>
+	</div>
+  <!-- Fim header -->
+  <!-- Como Pensamos -->
+  <div id="como-pensamos">
+  	Mergulhar no universo de nossos parceiros, usar todo nosso Know-How e criatividade pra realizar projetos singulares e experiências marcantes.
+  	<a target="_self" href="#" id="meet_work">Conheça nossos trabalhos.</a>
+    <a target="_self" href="#" id="tab_contact">contato@prox3.com.br</a>
+  </div>
+  <!-- Fim Como Pensamos -->
+  <div id="tudo">
         
         <!-- Serviços -->
     	<!-- Fim Serviços -->
