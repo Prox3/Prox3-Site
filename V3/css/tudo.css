@@ -1,0 +1,17 @@
+*{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif !important; }
+body{margin:0}
+#tudo{width:1000px;text-align:left;margin:0 auto}
+#conteudo{}
+
+/* Class */ 
+.centerDiv{ margin:0 auto;}
+.verticalAlign{ width:inherit; height:inherit; display:table-cell; vertical-align:middle; text-align: center; }
+.box-titulo-prox3{ width:70px; height:inherit; padding:3px 0px 3px 0px; text-transform:uppercase; color:#fff; font-size: 13px; font-weight: bold; text-align:center; font-family: 'PT Sans', sans-serif !important; }
+/* @End Class */
+
+/*Voltar ao topo display:none;*/
+.fixed-voltar-topo{ position:fixed !important; bottom:0px; }
+.voltarTopo{ display: table; width: 50px; height: 40px; background: #373636; border-radius: 5px 5px 0px 0px; text-align: center; text-transform: uppercase; color: #fff; font-weight: bold; cursor:pointer;position: absolute;  }
+.voltarTopo div { margin-top: 7px; }
+.voltarTopo p { padding:0px !important; margin:0px !important; font-size: 10px;}
+
