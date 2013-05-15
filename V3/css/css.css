@@ -3,6 +3,7 @@
 @import url("/Prox3-Site/V3/css/clientes.css");
 @import url("/Prox3-Site/V3/css/contato.css");
 @import url("/Prox3-Site/V3/css/footer.css");
+@import url("/Prox3-Site/V3/css/servicos.css");
 
 /* Header */
 #struct-header{ display: table; height:152px; width:100%; z-index:9000}

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#body_services{width:100%; height:auto}
+.body_text_service{width:396px; height:244px; float:left}
+
+.tag_service{background:#e1e1e1; color:#FFF; font-size:10px; font-family:'PT Sans', sans-serif !important; text-transform:uppercase; padding:0px 3px; float:right; margin-bottom:5px}
+.title_service{width:100%; height:auto; font-size:20px; font-family:'PT Sans', sans-serif !important; text-transform:uppercase; float:left; text-align:right; line-height:21px}
+
+#service_site .title_service{color:#be3f3f}
