@@ -96,7 +96,7 @@ function verificarEstiloMac(){
 	
 	if(navigator.userAgent.indexOf('iPad') > 0){
 		$('body').css("overflow-x","hidden");
-		$("#como-pensamos").css("width","103%");
+		$("#como-pensamos").css("width","102%");
 	}
 }
 
