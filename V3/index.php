@@ -75,9 +75,50 @@
   </div>
   <!-- Fim Como Pensamos -->
   <div id="tudo">
-        
-        <!-- Serviços -->
-    	<!-- Fim Serviços -->
+   <!-- Serviços -->
+    <div id="body_services">
+    	<div class="body_text_service" id="service_site">
+      	<div class="tag_service">Serviços</div>
+        <div class="title_service"><strong>Sites</strong><br />Responsivo</div>
+        <div class="text_service">
+        	A imagem virtual de uma empresa, nos dias de hoje, pode ser <br />um fator vital para o fechamento de um grande negócio. Cuide <br />bem de sua aparência. Na Prox3, você encontra sites<br /> instituicionais, e-commerce, atualização e manutenção<br /> periódica.<br /><br />
+
+Nosso diferencial é desenvolver sites responsivos, ou seja,<br /> <strong>sites que se adaptam a qualquer dispositivo</strong>, afinal, navegar<br /> em dispositivos móveis é muito comum.
+        </div>
+      </div>
+      <img src="images/responsivo.png" width="492" height="431" alt="Site Responsivo" title="Site Responsivo" id="img_responsive" />
+      <div class="body_text_service" id="app_mobile">
+      	<div class="tag_service">Serviços</div>
+        <div class="title_service"><strong>Aplicativos</strong><br />Mobile</div>
+        <div class="text_service">
+        	Os smartphones estão em alta e o seu uso no<br /> ambiente corporativo se tornou uma constante.<br /> Através da <strong>criação de aplicativos e da adaptação de<br /> sites/blogs</strong> para estes aparelhos, a Prox3 leva a sua<br /> marca para o seu público, onde quer que ele esteja.
+        </div>
+      </div>
+      <img src="images/app_facebook.jpg" width="416" height="362" alt="Aplicativo para facebook" title="Aplicativo para facebook" id="img_appFacebook" />
+      <div class="body_text_service" id="app_facebook">
+      	<div class="tag_service">Serviços</div>
+        <div class="title_service"><strong>Aplicativos</strong><br />Para Facebook</div>
+        <div class="text_service">
+        	Sua marca muito bem vista nas redes sociais. É<br /> isso que você quer. É isso que a Prox3 quer.<br /> Cuidamos da sua presença, neste ambiente,<br /> através do <strong>desenvolvimento de promoções,<br /> vendas personalizadas e outras ferramentas</strong>.<br /> Conte com a gente.
+        </div>
+      </div>
+      <div class="body_text_service" id="system">
+      	<div class="tag_service">Serviços</div>
+        <div class="title_service"><strong>Sistemas</strong></div>
+        <div class="text_service">
+        	Otimize o seu tempo com os sistemas da Prox3.<br />Com eles, a <strong>troca de informações entre<br /> colaboradores, fornecedores e clientes</strong> fica mais<br /> ágil e simples.
+        </div>
+      </div>
+      <div class="body_text_service" id="consult">
+      	<div class="tag_service">Serviços</div>
+        <div class="title_service"><strong>Consultoria</strong></div>
+        <div class="text_service">
+        	<strong>Consultoria personalizada</strong> em<br /> informática, projetos e e-commerce.
+        </div>
+        <img src="images/mac.png" width="579" height="352" alt="Consultoria" title="Consultoria" id="img_consultoria" />
+      </div>
+    </div>
+    <!-- Fim Serviços -->
         
         <!-- Clientes -->
         <?php require("clientes.php")?>
