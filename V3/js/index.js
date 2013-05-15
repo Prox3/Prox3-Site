@@ -94,7 +94,7 @@ function verificarEstiloMac(){
 		$(".voltarTopo").css("margin-top","68px");
 	}
 	
-	if(navigator.userAgent.indexOf('ipad') > 0){
+	if(navigator.userAgent.indexOf('iPad') > 0){
 		$('body').css("overflow-x","hidden");
 		$("#como-pensamos").css("width","103%");
 	}
