@@ -6,7 +6,7 @@ body{margin:0}
 /* Class */ 
 .centerDiv{ margin:0 auto;}
 .verticalAlign{ width:inherit; height:inherit; display:table-cell; vertical-align:middle; text-align: center; }
-.box-titulo-prox3{ width:70px; height:inherit; padding:3px 0px 3px 0px; text-transform:uppercase; color:#fff; font-size: 13px; font-weight: bold; text-align:center; font-family: 'PT Sans', sans-serif !important; }
+.box-titulo-prox3{ width:70px; height:inherit; padding:3px 0px 2px 0px; text-transform:uppercase; color:#fff; font-size: 13px; font-weight: bold; text-align:center; font-family: 'PT Sans', sans-serif !important; }
 /* @End Class */
 
 /*Voltar ao topo display:none;*/
