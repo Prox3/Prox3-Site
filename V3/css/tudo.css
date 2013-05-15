@@ -11,7 +11,8 @@ body{margin:0}
 
 /*Voltar ao topo display:none;*/
 .fixed-voltar-topo{ position:fixed !important; bottom:0px; }
-.voltarTopo{ display: table; width: 50px; height: 40px; background: #373636; border-radius: 5px 5px 0px 0px; text-align: center; text-transform: uppercase; color: #fff; font-weight: bold; cursor:pointer;position: absolute;  }
+.voltarTopo{ display: table; width: 35px; height: 85px; background: #ededed; border-radius: 3px 0px 0px 3px; border:1px solid #cccccc; border-right:0px; text-align: center; text-transform: uppercase; color: #c8c8c8; font-weight: bold; cursor:pointer;position: fixed; right:0px; bottom:150px;  }
 .voltarTopo div { margin-top: 7px; }
-.voltarTopo p { padding:0px !important; margin:0px !important; font-size: 10px;}
+.voltarTopo p { padding:0px !important; margin:0px !important; font-size: 12px; line-height:12px;}
+.voltarTopo img { margin-bottom: 5px; margin-top: 7px;}
 

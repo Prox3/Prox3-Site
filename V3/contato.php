@@ -21,12 +21,15 @@
                         <input type="button" id="txtEnviar" name="txtEnviar" value="enviar" />
                     </div>
                 </form>
-                <!--<div class="voltarTopo">
+                <div class="voltarTopo">
                     <div>
-                        <img src="images/voltar-topo.png" width="34" height="17" />
-                        <p>topo</p>
+                        <img src="images/voltar-topo-icone.png" width="14" height="8" />
+                        <p>T</p>
+                        <p>O</p>
+                        <p>P</p>
+                        <p>O</p>
                     </div>
-                </div>-->
+                </div>
             </div>
         </div>
     </div>

@@ -4,8 +4,8 @@
 #clientes{ margin:0px 45px 0px 45px; width:910px; height:inherit; background:#f4f4f4;display:table;}
 #clientes .content-prox3{ display: table-cell; vertical-align: middle;}
 #clientes .box-clientes{ margin:0px; margin-top:30px; width:630px; display:table; }
-#clientes .box-clientes a {display: table;}
-#clientes .box-clientes .clientes{float:left; margin-right:50px; margin-bottom:30px;}
+#clientes .box-clientes a {display: table-cell; vertical-align: middle; text-align: center; width: inherit; height: inherit;}
+#clientes .box-clientes .clientes{float:left; margin-right:10px; margin-bottom:30px; background:#e8e8e8; width:145px; height:121px;}
 #clientes .box-titulo-prox3 { background:#5863a0; display:table; }
 #clientes .voltarTopo{ margin-top: 126px; margin-top:125px\9; margin-left: 625px; }
 @-moz-document url-prefix() { 

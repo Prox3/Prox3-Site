@@ -16,7 +16,7 @@
                 </div>
                 <div class="clientes">
                     <a href="http://construtoragc.com.br/" target="_blank">
-                        <img src="img_clients/gc_construtora.png" alt="GC Construtora" title="GC Construtora" />
+                        <img src="img_clients/gc_construtora.png"  alt="GC Construtora" title="GC Construtora" />
                     </a>
                 </div>
             </div>
