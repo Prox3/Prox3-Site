@@ -8,19 +8,19 @@ function navegacaoMenu(){
 	
 	$("#menuServicos").click(function () {
 		$(".voltarTopo").hide();
-		var posLeft = ($("#body_services").position().top - 220);
+		var posLeft = ($("#body_services").position().top - 200);
 	    $(document).scrollTo({ top: posLeft, left: 0 }, { duration: 500 }, { easing: "easeInQuad" }, { queue: true });
 		return false;
 	}); 
 	
 	$("#menuClientes").click(function () {
-		var posLeft = ($("#struct-clientes").position().top - 150);
+		var posLeft = ($("#struct-clientes").position().top - 130);
 	    $(document).scrollTo({ top: posLeft, left: 0 }, { duration: 500 }, { easing: "easeInQuad" }, { queue: true });
 		return false;
 	}); 
 	
 	$("#menuContato").click(function () {
-		var posLeft = ($("#struct-contatos").position().top - 50);
+		var posLeft = ($("#struct-contatos").position().top - 30);
 	    $(document).scrollTo({ top: posLeft, left: 0 }, { duration: 500 }, { easing: "easeInQuad" }, { queue: true });
 		return false;
 	}); 
