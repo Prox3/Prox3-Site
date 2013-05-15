@@ -66,9 +66,9 @@
           <li><a id="menuClientes" target="_self" href="#">Clientes</a></li>
           <li><a id="menuContato" target="_self" href="#">Contato</a></li>
           <li>|</li>
-          <li><a target="_self" href="#">Portfolio</a></li>
-          <li><a target="_self" href="#">Blog</a></li>
-          <li style="margin-right:0"><a target="_self" href="#">Facebook</a></li>
+          <li><a target="_self" href="portfolio.php">Portfolio</a></li>
+          <li><a target="_self" href="blog.php">Blog</a></li>
+          <li style="margin-right:0"><a target="_self" href="https://www.facebook.com/prox3.digital">Facebook</a></li>
         </ul>
       </header>
     </div>
@@ -77,8 +77,8 @@
   <!-- Como Pensamos -->
   <div id="como-pensamos">
   	Mergulhar no universo de nossos parceiros, usar todo nosso Know-How e criatividade pra realizar projetos singulares e experiências marcantes.
-  	<a target="_self" href="#" id="meet_work">Conheça nossos trabalhos.</a>
-    <a target="_self" href="#" id="tab_contact">contato@prox3.com.br</a>
+  	<a target="_self" href="portfolio.php" id="meet_work">Conheça nossos trabalhos.</a>
+    <a target="_self" href="mailto:contato@prox3.com.br" id="tab_contact">contato@prox3.com.br</a>
   </div>
   <!-- Fim Como Pensamos -->
   <div id="tudo">
