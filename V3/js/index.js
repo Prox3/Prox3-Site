@@ -93,6 +93,11 @@ function verificarEstiloMac(){
 	if(navigator.userAgent.indexOf('Mac') > 0){
 		$(".voltarTopo").css("margin-top","68px");
 	}
+	
+	if(navigator.userAgent.indexOf('ipad') > 0){
+		$('body').css("overflow-x","hidden");
+		$("##como-pensamos").css("width","103%");
+	}
 }
 
 function varificarMobile(){
