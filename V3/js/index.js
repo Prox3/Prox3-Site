@@ -1,79 +1,22 @@
-function navegacaoMenu(){
-	$("#menuComoPensamos, .voltarTopo").click(function () {
+function navegacaoMenu(){	
+	$("#menuServicos, .voltarTopo").click(function () {
 		$(".voltarTopo").hide();
 		var posLeft = 0;
 	    $(document).scrollTo({ top: posLeft, left: 0 }, { duration: 500 }, { easing: "easeInQuad" }, { queue: true });
 		return false;
 	}); 
 	
-	$("#menuServicos").click(function () {
-		$(".voltarTopo").hide();
-		$("#struct-servicos .voltarTopo").show();
-		var posLeft = ($("#struct-servicos").position().top - 50);
-	    $(document).scrollTo({ top: posLeft, left: 0 }, { duration: 500 }, { easing: "easeInQuad" }, { queue: true });
-		return false;
-	}); 
-	
 	$("#menuClientes").click(function () {
-		$(".voltarTopo").hide();
-		$("#struct-clientes .voltarTopo").show();
-		var posLeft = ($("#struct-clientes").position().top - 50);
+		var posLeft = ($("#struct-clientes").position().top - 150);
 	    $(document).scrollTo({ top: posLeft, left: 0 }, { duration: 500 }, { easing: "easeInQuad" }, { queue: true });
 		return false;
 	}); 
 	
 	$("#menuContato").click(function () {
-		$(".voltarTopo").hide();
-		$("#struct-contatos .voltarTopo").show();
 		var posLeft = ($("#struct-contatos").position().top - 50);
 	    $(document).scrollTo({ top: posLeft, left: 0 }, { duration: 500 }, { easing: "easeInQuad" }, { queue: true });
 		return false;
 	}); 
-}
-
-function efeitosMenu(){
-	var $el, leftPos, newWidth, auxClick;
-	auxClick = 0;
-	
-	/* Cache it */
-	var $magicLine = $("#magic-line");
-	var pLeft = ($(".current_page_item strong").position().left + (($(".current_page_item strong").width()/2)-12));
-	$magicLine
-		.css("left",pLeft )
-		.data("origLeft", $magicLine.position().left);
-	
-	$("#menu-item li").find("strong").hover(function() 
-	{
-			auxClick = 0;
-			$el = $(this);
-			leftPos = $el.position().left + (($el.width()/2)-12) ;
-			
-			$magicLine.stop().animate({
-				left: leftPos,
-			});
-			
-		}, function() {
-			if(auxClick == 0){
-				$magicLine.stop().animate({
-				left: $magicLine.data("origLeft")
-			});   
-		}
-	});
-	
-	$("#menu-item li").find("strong").click(function() 
-	{
-		auxClick = 1;
-		$el = $(this);
-		leftPos = $el.position().left + (($el.width()/2)-12) ;
-		
-		$magicLine
-			.css("left",leftPos )
-			.data("origLeft", $magicLine.position().left);
-		
-		$magicLine.stop().animate({
-			left: leftPos,
-		});   
-	});
 }
 
 function definicaoFormValidacao() {
@@ -154,12 +97,11 @@ function varificarMobile(){
 
 $(document).ready(function () {
 	varificarMobile();
-	//efeitosMenu();	
-	//navegacaoMenu();
+	navegacaoMenu();
 	definicaoFormValidacao();
 	enviarContato();
 	verificarEstiloMac();
-	/*$(document).scroll(function () {		
+	$(document).scroll(function () {		
 		//console.log($(document).scrollTop());
         var useFixedSidebar = $(document).scrollTop();
 		if(useFixedSidebar == 0){
@@ -167,11 +109,7 @@ $(document).ready(function () {
 		}
 		else if (useFixedSidebar > 10 && useFixedSidebar < 1000){
 			$('.voltarTopo').show();
-       		$('.voltarTopo').addClass('fixed-voltar-topo');
+       		//$('.voltarTopo').addClass('fixed-voltar-topo');
 		}
-		else if (useFixedSidebar >= 1000){
-			$('.voltarTopo').show();
-			$('.voltarTopo').removeClass('fixed-voltar-topo');
-		}
-    });*/
+    });
 });

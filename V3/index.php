@@ -62,9 +62,9 @@
     	<header>
  				<a id="logo_header" title="Início" href="./">Prox3</a>
         <ul id="navigator">
-          <li><a target="_self" href="#">Serviços</a></li>
-          <li><a target="_self" href="#">Clientes</a></li>
-          <li><a target="_self" href="#">Contato</a></li>
+         <li><a id="menuServicos" target="_self" href="#">Serviços</a></li>
+          <li><a id="menuClientes" target="_self" href="#">Clientes</a></li>
+          <li><a id="menuContato" target="_self" href="#">Contato</a></li>
           <li>|</li>
           <li><a target="_self" href="#">Portfolio</a></li>
           <li><a target="_self" href="#">Blog</a></li>
