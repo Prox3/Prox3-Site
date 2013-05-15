@@ -3,6 +3,10 @@ body{margin:0}
 #tudo{width:1000px;text-align:left;margin:0 auto}
 #conteudo{}
 
+input[type=button]{
+border-radius: 0px !important;
+}
+
 /* Class */ 
 .centerDiv{ margin:0 auto;}
 .verticalAlign{ width:inherit; height:inherit; display:table-cell; vertical-align:middle; text-align: center; }
