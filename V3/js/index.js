@@ -1,7 +1,14 @@
 function navegacaoMenu(){	
-	$("#menuServicos, .voltarTopo").click(function () {
+	$(".voltarTopo").click(function () {
 		$(".voltarTopo").hide();
 		var posLeft = 0;
+	    $(document).scrollTo({ top: posLeft, left: 0 }, { duration: 500 }, { easing: "easeInQuad" }, { queue: true });
+		return false;
+	}); 
+	
+	$("#menuServicos").click(function () {
+		$(".voltarTopo").hide();
+		var posLeft = ($("#body_services").position().top - 220);
 	    $(document).scrollTo({ top: posLeft, left: 0 }, { duration: 500 }, { easing: "easeInQuad" }, { queue: true });
 		return false;
 	}); 
