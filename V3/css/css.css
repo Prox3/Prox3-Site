@@ -7,7 +7,7 @@ header{width:917px !important; height:107px; padding:28px 24px 0 59px !important
 #logo_header{width:96px; height:79px; background:url(../images/logo_header.png) no-repeat; text-indent:-9000px; float:left}
 
 /* Navigator */
-#navigator{width:500px; height:15px; float:right; margin:45px 0 0 0; padding:0}
+#navigator{width:/*500*/342px; height:15px; float:right; margin:45px 0 0 0; padding:0}
 #navigator li{list-style:none; display:inline; float:left; margin-right:32px; }
 #navigator li, #navigator li a{font-family: 'PT Sans', sans-serif !important; font-size:12px; color:#848585; text-transform:uppercase;; text-decoration:none}
 #navigator li a:hover{color:#848585; text-decoration:underline}
