@@ -39,7 +39,7 @@ function definicaoFormValidacao() {
     });
 	
 	email.rules('add', { required: true, email: true,
-        messages: { required: 'Email obrigatório.', email: "E-mail inválido.<br/>Ex.: nome@servidor.com.br" }
+        messages: { required: 'Email obrigatório.', email: "E-mail inválido.<br/>Ex.: nome@dominio.com.br" }
     });
 	
 	mensagem.rules('add', { required: true,
@@ -59,7 +59,7 @@ function enviarContato(){
 		var mensagem = form.find('#txtMensagem');
 				
 		$.ajax({
-			url: 'send_message.php',
+			url: 'email/send_message.php',
 			type: 'POST',
 			data: { nome: nome.val(), 
 					email: email.val(), 

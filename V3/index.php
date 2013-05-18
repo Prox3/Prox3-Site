@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta name="description" content="Desenvolva seus projetos online com a Prox3 de forma rápida, criativa e de qualidade." />
-    <link rel="SHORTCUT ICON" href="http://www.prox3.com.br/V2/images/favicon.png">
+    <link rel="SHORTCUT ICON" href="http://www.prox3.com.br/images/favicon.png">
     <meta name="keywords" content="Prox3, produtora, produtora digital,sites, sistemas web, desenvolvimento web">
     <meta name="title" content="Prox3 - Produtora Digital">
     <meta name="organization name" content="Prox3" />
