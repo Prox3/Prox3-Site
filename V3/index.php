@@ -123,7 +123,7 @@ Nosso diferencial é desenvolver sites responsivos, ou seja,<br /> <strong>sites
               </a>
             </div>
             <div class="clientes">
-              <a href="http://www.prox3.com.br/MegaGeo/" target="_blank">
+              <a href="http://www.prox3.com.br/clientes/MegaGeo/" target="_blank">
                 <img src="img_clients/megageo.png" alt="MegaGeo" title="MegaGeo" />
               </a>
             </div>
