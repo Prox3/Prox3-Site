@@ -20,9 +20,9 @@
     <meta property="og:image" content="http://prox3.com.br/images/logo.png">
     
     <title>Prox3 - Produtora Digital</title>
-    <link href="css/css.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="css/ie.css" rel="stylesheet" type="text/css" media="screen" />
+    <!--[if IE]> <link href="css/ie.css" rel="stylesheet" type="text/css" media="screen" /><![endif]-->
     <link href="css/screen.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="css/css.css" rel="stylesheet" type="text/css" media="screen" />
     
     <link rel="stylesheet" type="text/css" href="css/jquery.qtip.css"/>
     
@@ -30,13 +30,11 @@
     <script type="text/javascript" src="js/jquery.ScrollTo-min.js" ></script>
     
     <script type="text/javascript" src="js/jquery.validate.js"></script>
-	<script type="text/javascript" src="js/jquery.qtip.js"></script>
+		<script type="text/javascript" src="js/jquery.qtip.js"></script>
 	
     <script type="text/javascript" src="js/commons/common.js"></script>
     <!-- noty -->
     <script type="text/javascript" src="js/noty/jquery.noty.js"></script>
-    <!-- themes -->
-    <script type="text/javascript" src="js/noty/themes/default.js"></script>
     
     <script src="js/index.js" type="text/javascript"></script>
 </head>
@@ -112,17 +110,79 @@ Nosso diferencial é desenvolver sites responsivos, ou seja,<br /> <strong>sites
     </div>
     <!-- Fim Serviços -->
         
-        <!-- Clientes -->
-        <?php require("clientes.php")?>
-        <!-- Fim Clientes -->
+    <!-- Clientes -->
+    <div id="struct-clientes">
+			<div class="shadows-clientes"></div>
+    	<div id="clientes">
+      	<div class="content-prox3">
+          <div class="box-titulo-prox3">clientes</div>
+          <div class="box-clientes">
+          	<div class="clientes">
+              <a href="http://actmob.com/#!/home" target="_blank">
+                <img src="img_clients/actmob.png" alt="ActMob" title="ActMob" />
+              </a>
+            </div>
+            <div class="clientes">
+              <a href="http://www.prox3.com.br/MegaGeo/" target="_blank">
+                <img src="img_clients/megageo.png" alt="MegaGeo" title="MegaGeo" />
+              </a>
+            </div>
+            <div class="clientes">
+              <a href="http://construtoragc.com.br/" target="_blank">
+                <img src="img_clients/gc_construtora.png"  alt="GC Construtora" title="GC Construtora" />
+              </a>
+            </div>
+          </div>
+       	</div>
+    	</div>
+		</div>
+    <!-- Fim Clientes -->
         
-        <!-- Contatos -->
-        <?php require("contato.php")?>
-        <!-- Fim Contatos -->
+    <!-- Contatos -->
+    <div class="backLightbox"></div>
+    <div class="loading">
+      <img src="images/ajax-loader.gif" alt="Loading">
     </div>
-    <!-- Footer -->
-    <?php require("footer.php")?>
-    <!-- Fim Footer --> 
+		<div id="struct-contatos">
+    	<div id="contatos">
+      	<div class="content-prox3">
+          <div class="box-titulo-prox3">contato</div>
+          <div class="box-contatos">
+          	<form id="form1" action="#" method="post">
+          		<div>
+              	<input type="text" id="txtNome" name="txtNome" placeholder="[Nome]" value="" />
+              </div>
+              <div>
+              	<input type="text" id="txtEmail" name="txtEmail" placeholder="[E-mail]" value="" />
+              </div>
+              <div>
+              	<textarea id="txtMensagem" name="txtMensagem" placeholder="[Mensagem]"></textarea>
+              </div>
+              <div>
+              	<input type="button" id="txtEnviar" name="txtEnviar" value="enviar" />
+              </div>
+            </form>
+            <div class="voltarTopo">
+            <div>
+              <img src="images/voltar-topo-icone.png" width="14" height="8" />
+              <p>TOPO</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+  <!-- Fim Contatos -->
+</div>
+  <!-- Footer -->
+  <div id="struct-footer">
+    <div id="footer">
+    	<div id="content-footer">
+      	<p class="verticalAlign">© COPYRIGHT Prox3 Produtora Digital</p>
+      </div>
+    </div>
+	</div>
+  <!-- Fim Footer --> 
     <script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-38821032-1']);
