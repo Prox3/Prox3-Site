@@ -1,6 +1,0 @@
-/*Footer*/
-#struct-footer{ display: table; height: 73px; width: 100%; }
-#footer{background-color:#dddc00; display:table; width:inherit; height:73px;}
-#footer #content-footer{width: 1000px; height: 73px; margin: 0 auto;}
-#footer #content-footer p {color:#fff; font-size:11px;}
-/*@End Footer*/

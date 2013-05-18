@@ -1,9 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
-@import url("/Prox3-Site/V3/css/tudo.css");
-@import url("/Prox3-Site/V3/css/clientes.css");
-@import url("/Prox3-Site/V3/css/contato.css");
 @import url("/Prox3-Site/V3/css/footer.css");
-@import url("/Prox3-Site/V3/css/servicos.css");
 
 /* Header */
 #struct-header{ display: table; height:135px; width:100%; z-index:9000}
@@ -21,3 +17,102 @@ header{width:917px !important; height:107px; padding:28px 24px 0 59px !important
 #como-pensamos{width:100%; height:297px; background:url(../images/pensamos.jpg) no-repeat 50% 0; text-indent:-9000px}
 #meet_work{width:210px; height:33px; position:absolute; left:50%; margin:145px 0 0 -386px}
 #tab_contact{width:148px; height:25px; background:#2b647d; position:absolute; left:50%; margin-left:328px; font-family:Arial; font-size:11px; color:#FFF; text-align:center; padding-top:11px; text-indent: -5px; margin-top:-20px}
+
+/* Estrutura Site */
+*{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif !important; }
+body{margin:0}
+#tudo{width:1000px;text-align:left;margin:0 auto}
+#conteudo{}
+
+input[type=button]{
+border-radius: 0px !important;
+}
+
+/* Class */ 
+.centerDiv{ margin:0 auto;}
+.verticalAlign{ width:inherit; height:inherit; display:table-cell; vertical-align:middle; text-align: center; }
+.box-titulo-prox3{ width:70px; height:inherit; padding:3px 0px 1px 0px; text-transform:uppercase; color:#fff; font-size: 13px; font-weight: bold; text-align:center; font-family: 'PT Sans', sans-serif !important; }
+/* @End Class */
+
+/*Voltar ao topo display:none;*/
+.fixed-voltar-topo{ position:fixed !important; bottom:0px; }
+.voltarTopo{ display: none; width: 35px; height: 85px; background: #ededed; border-radius: 3px 0px 0px 3px; border:1px solid #cccccc; border-right:0px; text-align: center; text-transform: uppercase; color: #c8c8c8; font-weight: bold; cursor:pointer;position: fixed; right:0px; bottom:150px;  }
+.voltarTopo div { margin-top: 7px; }
+.voltarTopo p { padding: 0px !important; margin: 0px !important; font-size: 12px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3); letter-spacing:2px}
+.voltarTopo img { margin-bottom: 18px; margin-top: 7px;}
+/* Fim Estrutura Site */
+
+/*Clientes*/
+#struct-clientes{ display:table; width:100%; height:327px; }
+#struct-clientes .shadows-clientes{ position:absolute; background:#f4f4f4; height:327px; width:100%; left:0px; z-index:-1; }
+#clientes{ margin:0px 45px 0px 45px; width:910px; height:inherit; background:#f4f4f4;display:table;}
+#clientes .content-prox3{ display: table-cell; vertical-align: middle;}
+#clientes .box-clientes{ margin:0px; margin-top:30px; width:630px; display:table; }
+#clientes .box-clientes a {display: table-cell; vertical-align: middle; text-align: center; width: inherit; height: inherit;}
+#clientes .box-clientes .clientes{float:left; margin-right:10px; margin-bottom:30px; background:#e8e8e8; width:145px; height:121px;}
+#clientes .box-titulo-prox3 { background:#5863a0; display:table; }
+#clientes .voltarTopo{ margin-top: 126px; margin-top:125px\9; margin-left: 625px; }
+@-moz-document url-prefix() { 
+  #clientes .voltarTopo{ margin-top: 125px; }
+}
+/* @End Clientes*/
+
+/*Contatos*/
+#struct-contatos{ display:table; width:100%; height:430px; }
+#contatos{  margin:0px 45px 0px 45px; width:910px; height:inherit; display:table;}
+#contatos .content-prox3{ display: table-cell; vertical-align: middle;}
+#contatos .box-contatos{ background:#f9f9f9; margin-top:10px; padding:25px 20px 25px 20px; width:870px;} 
+
+#contatos .box-contatos input[type=text], #contatos .box-contatos textarea{ display:table; margin:0px; margin-bottom:15px; background:#ebebeb; border:0px; font-size:11px; color:#7b7b7b; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif !important; padding:5px 10px 5px 10px;width:760px;font-style:italic;}
+#contatos .box-contatos textarea{ height:85px; margin-bottom: 0px; }
+
+#contatos .box-contatos input[type=button]{ display:table; height:30px; width:70px; text-transform:uppercase; font-family: 'PT Sans', sans-serif !important; border:0px; font-size:12px;  color:#757517; background:#dddc00; font-weight:bold; cursor:pointer; float:right; margin-top: -30px; }
+
+#contatos .box-titulo-prox3 { background:#dddc00; display:table; }
+#contatos .voltarTopo{ margin-top: 60px;margin-top:64px\9; margin-left: 625px; }
+@-moz-document url-prefix() { 
+  #contatos .voltarTopo{ margin-top: 62px; }
+}
+/* @End Contatos*/
+
+/*Loading Envio Formulario*/
+.backLightbox {	position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #ededed; opacity: .6; z-index: 21000; display: none; }
+.loading { position: fixed; top: 50%; left: 50%; width: 32px; height: 32px; margin-left: -16px; margin-top: -16px; z-index: 22003;display: none; }
+/*Fim Loading Envio Formulario*/
+
+/* Serviçcos */
+#body_services{width:100%; height:auto}
+.body_text_service{width:396px; height:244px; float:left}
+
+.tag_service{background:#e1e1e1; color:#FFF; font-size:10px; font-family:'PT Sans', sans-serif !important; text-transform:uppercase; padding:1px 5px 0px 5px; float:right; margin-bottom:5px}
+.title_service{width:100%; height:auto; font-size:24px; letter-spacing:1px; font-family:'PT Sans', sans-serif !important; text-transform:uppercase; float:left; text-align:right; line-height:21px; margin-bottom:5px}
+.text_service{width:100%; height:auto; font-family:Arial !important; font-size:12px; color:#b4b4b4; text-align:right; float:right}
+.text_service strong{color:#838181; font-family:Arial !important}
+
+#service_site{margin:47px 0 0 40px}
+#service_site .title_service{color:#be3f3f}
+#img_responsive{display:block; float:right; margin:-62px 40px 0 0}
+
+#app_mobile{width:344px; height:173px; margin:-56px 0 0 418px}
+#app_mobile .title_service{color:#7db77b}
+
+#app_facebook{width:302px; height:189px; margin:90px 0 0 50px}
+#app_facebook .tag_service{float:left}
+#app_facebook .title_service{color:#2c6985; text-align:left}
+#app_facebook .text_service{text-align:left}
+#img_appFacebook{display:block; float:left; margin-left:67px}
+
+#system{width:322px; height:132px; margin:391px 0 0 -733px}
+#system .title_service{color:#b66ca6}
+
+#consult{width:226px; height:97px; margin:530px 0 80px -546px}
+#consult .title_service{color:#db6499}
+#img_consultoria{position:absolute; margin:-130px 0 0 57px}
+/* End Serviçcos */
+
+/*Footer*/
+#struct-footer{ display: table; height: 73px; width: 100%; }
+#footer{background-color:#dddc00; display:table; width:inherit; height:73px;}
+#footer #content-footer{width: 1000px; height: 73px; margin: 0 auto;}
+#footer #content-footer p {color:#fff; font-size:11px;}
+/*@End Footer*/
