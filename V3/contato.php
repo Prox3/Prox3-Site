@@ -24,10 +24,7 @@
                 <div class="voltarTopo">
                     <div>
                         <img src="images/voltar-topo-icone.png" width="14" height="8" />
-                        <p>T</p>
-                        <p>O</p>
-                        <p>P</p>
-                        <p>O</p>
+                        <p>TOPO</p>
                     </div>
                 </div>
             </div>
