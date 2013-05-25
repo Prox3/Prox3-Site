@@ -18,4 +18,4 @@
 <meta property="og:image" content="http://prox3.com.br/images/logo.png">
     
 <title>Prox3 - Portfolio</title>
-<link rel="stylesheet" type="text/css" href="css/css.css" media="print" />
+<link rel="stylesheet" type="text/css" href="css/css.css" />
