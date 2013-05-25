@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+
+/* Estrutura Site */
+body{margin:0}
+#tudo{width:1000px; margin:0 auto}
+.left{float:left !important} .right{float:right !important}
+img{display:block; float:left; border:none !important}
+
+/* Header */
+#struct-header{ display: table; height:52px; width:100%; z-index:9000}
+#header{background-color:#FFF; box-shadow:-4px -5px 21px 9px #292525; display:table; width:inherit; height:52px; z-index:9000; position:fixed}
+header{width:917px !important; height:42px; padding:10px 24px 0 59px !important; background:#FFF; z-index:9000;margin: 0 auto !important;display:table;}
+#logo_header{width:96px; height:32px; background:url(../imagens/logo_header.png) no-repeat; text-indent:-9000px; float:left}
+
+/* Navigator */
+#navigator{width:/*500*/342px; height:15px; float:right; margin:10px 0 0 0; padding:0}
+#navigator li{list-style:none; display:inline; float:left; margin-right:32px; }
+#navigator li, #navigator li a{font-family: 'PT Sans', sans-serif !important; font-size:12px; color:#848585; text-transform:uppercase;; text-decoration:none}
+#navigator li a:hover{color:#848585; text-decoration:underline}
+
+/* CONTEÚDO */
+.text_portfolio{width:100%; height:104px; background:url(../imagens/text-portif.png) no-repeat; margin-top:-20px; text-indent:-9000px}
+
+/* Sub-navigator */
+#sub_navigator{width:100%; height:auto; padding:0; margin:36px 0 29px 0}
+#sub_navigator li{font-family:'PT Sans', sans-serif !important; font-size:11px; padding:2px 14px; margin-right:20px; display:inline; font-weight:bold; color:#4d4d4d; cursor:pointer}
+
+/* Info */
+.body_info, .shadow_info{width:920px; height:197px; background:url(../imagens/bg_info.jpg) repeat-x; padding:60px 40px 0 40px}
+.shadow_info{width:100%; position:absolute; left:0; z-index:-9000; margin-top:-60px}
+
+#footer{width:100%; height:28px; background:#dddc00; font-family:Arial !important; font-size:12px; color:#FFF; text-align:center; padding-top:20px; float:left; margin-top:28px}
+
+.left_info{width:287px; height:137px}
+.tag_job{padding:4px 17px; background:#083e68; color:#FFF; font-family:'PT Sans', sans-serif !important; font-size:11px; font-weight:bold; text-transform:uppercase}
+.name_company{width:100%; height:auto; font-family:Arial; font-size:11px; color:#555555; font-weight:bold; line-height:16px; margin-top:10px}
+.tecnologic_use{width:100%; height:auto; font-family:Arial; font-size:11px; color:#555555; margin-top:10px}
+.link_company{width:100%; height:auto; font-family:Arial; font-size:11px; color:#083e68; margin-top:10px}
+.comment_client{width:524px; height:111px; background:#e9e7e7; padding:26px 24px 0 24px; font-family:Arial; font-size:12px; color:#595959}
+.name_client{width:100%; height:auto; text-align:right; margin-top:5px; font-style:italic}
+.name_company_comment{width:100%; height:auto; text-align:right;}
