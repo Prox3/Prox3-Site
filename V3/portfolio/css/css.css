@@ -46,3 +46,4 @@ header{width:917px !important; height:42px; padding:10px 24px 0 59px !important;
 .comment_client{width:524px; height:111px; background:#e9e7e7; padding:26px 24px 0 24px; font-family:Arial; font-size:12px; color:#595959}
 .name_client{width:100%; height:auto; text-align:right; margin-top:5px; font-style:italic}
 .name_company_comment{width:100%; height:auto; text-align:right;}
+.body_info{display:none;}
