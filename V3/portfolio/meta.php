@@ -19,4 +19,6 @@
 
 <title>Prox3 - Portfolio</title>
 <link rel="stylesheet" type="text/css" href="css/css.css" />
-<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" media="screen" />
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>

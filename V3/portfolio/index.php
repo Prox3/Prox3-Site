@@ -57,6 +57,7 @@ $(document).ready(function(){
 				$(this).click();
 			}
 	});
+	$("a[rel^='prettyPhoto[Equipamentos]']").prettyPhoto({ social_tools:'' });
 });
 </script>
 </head>
@@ -121,7 +122,8 @@ $(document).ready(function(){
       	<span class="tag_job left">SITES</span>
         <span class="name_company left">Nome da empresa <br>2013</span>
         <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
+        <a target="_blank" href="imagens/client_megageo.jpg" rel="prettyPhoto[Equipamentos]" title="This is the description" class="link_company left">Veja Mais...</a>
+        <a href="imagens/client_megageo.jpg" rel="prettyPhoto[Equipamentos]" title="This is the description"></a>
       </div>
       <div class="comment_client right">
       	<div class="text_comment left">
