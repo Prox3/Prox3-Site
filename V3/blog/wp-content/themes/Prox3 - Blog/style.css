@@ -1,0 +1,69 @@
+/*  
+Theme Name: Prox3 - Blog
+Theme URI: http://prox3.com.br/blog/
+Description: O blog da Prox3 fala um pouco de tudo dentro do tema Tecnologia. Encontre tutoriais, eventos, dicas. Traga suas ideias, dúvidas, sugetões e teremos o maior prazer em conversar com você.
+Author: Prox3
+Author URI: http://prox3.com.br/
+*/
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+
+/* Estrutura Site */
+body{margin:0}
+#tudo{width:1000px; margin:0 auto}
+.screen-reader-text, #searchsubmit{display:none}
+input[type=button]{border-radius: 0px !important;}
+.left{float:left !important} .right{float:right !important}
+
+/* Header */
+#struct-header{ display: table; height:135px; width:100%; z-index:9000}
+#header{background-color:#FFF; box-shadow:-4px -5px 21px 9px #292525; display:table; width:inherit; height:135px; z-index:9000; position:fixed}
+header{width:917px !important; height:107px; padding:28px 24px 0 59px !important; background:#FFF; z-index:9000;margin: 0 auto !important;display:table;}
+#logo_header{width:96px; height:79px; background:url(images/logo_header.png) no-repeat; text-indent:-9000px; float:left}
+
+/* Navigator */
+#navigator{width:/*500*/342px; height:15px; float:right; margin:45px 0 0 0; padding:0}
+#navigator li{list-style:none; display:inline; float:left; margin-right:32px; }
+#navigator li, #navigator li a{font-family: 'PT Sans', sans-serif !important; font-size:12px; color:#848585; text-transform:uppercase;; text-decoration:none}
+#navigator li a:hover{color:#848585; text-decoration:underline}
+
+/* Sidebar */
+#sidebar{width:165px; height:100%; background:#c2c102; float:left; margin-top:86px; margin-right:47px}
+#shadow_sidebar{width:24%; height:100%; background:#c2c102; position:absolute; left:0; z-index:-8000; margin-top:-66px}
+#shadow_sidebar_top{width:24%; height:20px; background:#c2c102; position:absolute; left:0; margin-top:-86px; z-index:-8000}
+#text-blog{width:317px; height:108px; background:url(images/text-blog.png) no-repeat; position:absolute; margin:-124px 0 0 -8px; z-index:-8000}
+.fixed{position:fixed}
+
+/* Search */
+#searchform div input[type="text"]{width:127px; height:22px; border-radius:12px; border:none; padding-left:10px; font-family:Arial; font-size:11px; color:#bababa; font-style:italic; background:url(images/lupa.png) no-repeat #FFF; background-position:116px 4px; margin-bottom:20px}
+
+/* Lista de categorias */
+.cat-item{list-style:none !important; margin-left:6px; padding:1px 11px 3px 11px}
+.cat-item a{font-family:Arial; color:#4d4d4d; text-decoration:none; font-size:11px; font-weight:bold}
+.cat-item a:hover{text-decoration:underline}
+
+.cat-item-1{width:43px}
+.cat-item-2{width:75px}
+.cat-item-3{width:61px}
+.cat-item-4{width:51px}
+.cat-item-5{width:54px}
+
+.active{background:#2d2d2d; color:#FFF}
+.active a{color:#FFF}
+
+/* Artigo */
+.artigo{float:left; width:755px; margin:0 0 60px 210px}
+.bg_title{width:755px; height:107px; float:left}
+.title_post{width:100%; height:auto; margin-bottom:2px}
+.title_post a{font-family:Arial; font-size:18px; text-transform:uppercase; color:#2f6d88; text-decoration:none}
+.title_post a:hover{text-decoration:underline}
+.author{width:100%; height:auto; font-family:Arial; font-size:11px; color:#656565; font-style:italic; margin-bottom:20px}
+.arrow{width:0; height:0; position:absolute; border-top:solid 9px transparent; border-bottom:solid 9px transparent; border-left:solid 7px transparent; border-left-color:#c9c7c7 !important; margin:2px 0 0 3px}
+
+.categories_post{width:100%; height:auto}
+.categories_post a{padding:3px; background:#c9c7c7; font-family:Arial; font-size:11px; color:#FFF; text-decoration:none; margin-right:10px}
+
+.content_post{width:100%; height:auto; font-family:Arial !important; font-size:12px; color:#a4a4a4; text-align:justify}
+.content_post a{font-family:Arial !important; font-size:12px; color:#caca6f}
+
+#footer{width:100%; height:28px; background:#dddc00; font-family:Arial !important; font-size:12px; color:#FFF; text-align:center; padding-top:20px; position:fixed; bottom:0; left:0}
