@@ -31,6 +31,7 @@ function removeGrayscale(classe){
 }
 $(document).ready(function(){
 	$("img").animate({ opacity: 0.3 });
+	$("img").hover(function(){ $(this).animate({ opacity: 1 });},function(){ $(this).animate({ opacity: 0.3 });});
 	$("#sub_navigator li").click(function(){
 		var classe =$(this).attr("class");
 		removeGrayscale('.'+ classe);
