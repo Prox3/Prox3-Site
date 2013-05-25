@@ -9,8 +9,9 @@ body{margin:0}
 .left{float:left !important} .right{float:right !important}
 img{display:block; float:left; border:none !important;}
 
-/* Escala coinza 
-img{ filter: opacity(0.3); -webkit-filter: opacity(0.3); -moz-filter: opacity(0.3); -ms-filter: opacity(0.3); -o-filter: opacity(0.3);}
+/* Escala coinza */
+img{ cursor:pointer;}
+/*img{ filter: opacity(0.3); -webkit-filter: opacity(0.3); -moz-filter: opacity(0.3); -ms-filter: opacity(0.3); -o-filter: opacity(0.3);}
 img:hover{ filter: opacity(1); -webkit-filter: opacity(1); -moz-filter: opacity(1); -ms-filter: opacity(1); -o-filter: opacity(1);}*/
 
 /* Header */
