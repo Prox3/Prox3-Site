@@ -10,7 +10,7 @@ body{margin:0}
 img{display:block; float:left; border:none !important;}
 
 /* Escala coinza */
-img{ filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%);}
+img{ filter: grayscale(80%); -webkit-filter: grayscale(80%); -moz-filter: grayscale(80%); -ms-filter: grayscale(80%); -o-filter: grayscale(80%);}
 img:hover{filter: grayscale(0%); -webkit-filter: grayscale(0%); -moz-filter: grayscale(0%); -ms-filter: grayscale(0%); -o-filter: grayscale(0%);}
 
 /* Header */
@@ -31,6 +31,7 @@ header{width:917px !important; height:42px; padding:10px 24px 0 59px !important;
 /* Sub-navigator */
 #sub_navigator{width:100%; height:auto; padding:0; margin:36px 0 29px 0}
 #sub_navigator li{font-family:'PT Sans', sans-serif !important; font-size:11px; padding:2px 14px; margin-right:20px; display:inline; font-weight:bold; color:#4d4d4d; cursor:pointer}
+.sub-active{background:#2d2d2d}
 
 /* Info */
 .body_info, .shadow_info{width:920px; height:197px; background:url(../imagens/bg_info.jpg) repeat-x; padding:60px 40px 0 40px}
