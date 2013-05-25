@@ -40,10 +40,10 @@ $(document).ready(function(){
 				$.grep($("img"), function(img, array){ if($(img).attr('class') != cat){ $(img).animate({ opacity: 0.3 }) } });
 				$(this).unbind('mouseenter').unbind('mouseleave');
 				$(this).animate({ opacity: 1 });
-				$(".body_info").hide();
+				$(".body_info").fadeOut("slow");
 				//$(".body_info").slideUp("fast");
 				var job = $(this).attr('data-job');
-				$("#"+ job).show();
+				$("#"+ job).fadeIn("slow");
 				//$("#"+ job).slideToggle("fast");
 			}
 			else{
