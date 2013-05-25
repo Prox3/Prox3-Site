@@ -33,11 +33,11 @@
       <li id="item-5">MOBILE</li>
       <li id="item-6">SISTEMAS</li>
     </ul>
-    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="">
-    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="">
-    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="">
-    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="">
-    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="">
+    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="" class="todos sites">
+    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="" class="todos wordpress">
+    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="" class="todos app_facebook">
+    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="" class="todos mobile">
+    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="" class="todos sistemas">
     
     <div class="body_info left">
     	<div class="shadow_info"></div>
@@ -56,23 +56,23 @@
       </div>
     </div>
     
-    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="">
-    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="">
-    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="">
-    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="">
-    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="">
+    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="" class="todos sites">
+    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="" class="todos wordpress">
+    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="" class="todos app_facebook">
+    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="" class="todos mobile">
+    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="" class="todos sistemas">
     
-    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="">
-    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="">
-    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="">
-    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="">
-    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="">
+    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="" class="todos sites">
+    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="" class="todos wordpress">
+    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="" class="todos app_facebook">
+    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="" class="todos mobile">
+    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="" class="todos sistemas">
     
-    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="">
-    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="">
-    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="">
-    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="">
-    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="">
+    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="" class="todos sites">
+    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="" class="todos wordpress">
+    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="" class="todos app_facebook">
+    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="" class="todos mobile">
+    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="" class="todos sistemas">
   </div>
   <div id="footer">
     &copy; COPYRIGHT Prox3 Produtora Digital
