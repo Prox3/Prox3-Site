@@ -25,7 +25,7 @@
 			}
 		}
 		
-		$('#shadow_sidebar').height($('.artigo').height()+100);
+		//$('#shadow_sidebar').height($('.artigo').height()+300);		
   });
 </script>
 </head>
