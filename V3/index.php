@@ -68,8 +68,8 @@
           <li><a id="menuClientes" target="_self" href="#">Clientes</a></li>
           <li><a id="menuContato" target="_self" href="#">Contato</a></li>
           <li>|</li>
-          <!--<li><a target="_self" href="portfolio.php">Portfolio</a></li>
-          <li><a target="_self" href="blog.php">Blog</a></li>-->
+          <li><a target="_self" href="portfolio/index.php">Portfolio</a></li>
+          <!--<li><a target="_self" href="blog.php">Blog</a></li>-->
           <li style="margin-right:0"><a target="_self" href="https://www.facebook.com/prox3.digital">Facebook</a></li>
         </ul>
       </header>

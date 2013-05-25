@@ -65,12 +65,13 @@ $(document).ready(function(){
     	<header>
  				<a id="logo_header" title="Home" href="//prox3.com.br">Prox3</a>
         <ul id="navigator">
-         <li><a id="menuServicos" target="_self" href="#">Serviços</a></li>
+       	 <li><a target="_self" href="//prox3.com.br">Home</a></li>
+          <li><a id="menuServicos" target="_self" href="#">Serviços</a></li>
           <li><a id="menuClientes" target="_self" href="#">Clientes</a></li>
           <li><a id="menuContato" target="_self" href="#">Contato</a></li>
           <li>|</li>
-          <!--<li><a target="_self" href="portfolio.php">Portfolio</a></li>
-          <li><a target="_self" href="blog.php">Blog</a></li>-->
+          <li><a target="_self" href="portfolio/index.php">Portfolio</a></li>
+          <!--<li><a target="_self" href="blog.php">Blog</a></li>-->
           <li style="margin-right:0"><a target="_self" href="https://www.facebook.com/prox3.digital">Facebook</a></li>
         </ul>
       </header>
