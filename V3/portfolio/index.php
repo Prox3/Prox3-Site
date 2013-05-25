@@ -4,29 +4,33 @@
 <?php include 'meta.php'; ?>
 <script type="text/javascript">
 function removeGrayscale(classe){
-	$("img").removeAttr("style");
+	//$("img").removeAttr("style");
+	$("img").animate({ opacity: 0.3 });
 	if(classe == ".todos-todos"){
 		$.map($("#tudo img"),function(menu, array){
-			$(menu)
-				.css('filter','grayscale(0%)')
-				.css('-webkit-filter','grayscale(0%)')
-				.css('-moz-filter','grayscale(0%)')
-				.css('-ms-filter','grayscale(0%)')
-				.css('-o-filter','grayscale(0%)');
+			$(menu).animate({ opacity: 1 });
+			/*$(menu)
+				.css('filter','opacity(1)')
+				.css('-webkit-filter','opacity(1)')
+				.css('-moz-filter','opacity(1)')
+				.css('-ms-filter','opacity(1)')
+				.css('-o-filter','opacity(1)').fadeTo(300, 1);*/
 		});
 	}
 	else {
 		$.map($(classe),function(menu, array){
-			$(menu)
+			$(menu).animate({ opacity: 1 });
+			/*$(menu)
 				.css('filter','grayscale(0%)')
 				.css('-webkit-filter','grayscale(0%)')
 				.css('-moz-filter','grayscale(0%)')
 				.css('-ms-filter','grayscale(0%)')
-				.css('-o-filter','grayscale(0%)');
+				.css('-o-filter','grayscale(0%)');*/
 		});
 	}
 }
 $(document).ready(function(){
+	$("img").animate({ opacity: 0.3 });
 	$("#sub_navigator li").click(function(){
 		var classe =$(this).attr("class");
 		removeGrayscale('.'+ classe);
