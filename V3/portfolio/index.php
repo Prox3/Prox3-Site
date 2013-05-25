@@ -3,7 +3,11 @@
 <head>
 <?php include 'meta.php'; ?>
 <script type="text/javascript">
-function removeGrayscale(classe){
+function removeGrayscale(element){
+	var classe = element.split(" ")[0];
+	var id = $("#sub_navigator li"+ classe).attr("id");
+	$("#sub_navigator > li").removeClass("sub-active");
+	$("#"+id).addClass("sub-active");
 	$(".body_info").hide();
 	$("img").animate({ opacity: 0.3 });
 	$("img").unbind('mouseenter').unbind('mouseleave')
