@@ -71,11 +71,11 @@ $(document).ready(function(){
  				<a id="logo_header" title="Home" href="//prox3.com.br">Prox3</a>
         <ul id="navigator">
        	 <li><a target="_self" href="//prox3.com.br">Home</a></li>
-          <li><a id="menuServicos" target="_self" href="#">Serviços</a></li>
-          <li><a id="menuClientes" target="_self" href="#">Clientes</a></li>
-          <li><a id="menuContato" target="_self" href="#">Contato</a></li>
+          <li><a id="menuServicos" target="_self" href="../#servico">Serviços</a></li>
+          <li><a id="menuClientes" target="_self" href="../#cliente">Clientes</a></li>
+          <li><a id="menuContato" target="_self" href="../#contato">Contato</a></li>
           <li>|</li>
-          <li><a target="_self" href="portfolio/index.php">Portfolio</a></li>
+          <li><a target="_self" href="http://prox3.com.br/portfolio/">Portfolio</a></li>
           <!--<li><a target="_self" href="blog.php">Blog</a></li>-->
           <li style="margin-right:0"><a target="_self" href="https://www.facebook.com/prox3.digital">Facebook</a></li>
         </ul>
@@ -88,35 +88,102 @@ $(document).ready(function(){
     <ul id="sub_navigator" class="left">
       <li id="item-1" class="todos-todos">TODOS</li>
       <li id="item-2" class="todos-sites">SITES</li>
-      <li id="item-3" class="todos-wordpress">WORDPRESS</li>
-      <li id="item-4" class="todos-app_facebook">APP FACEBOOK</li>
+      <li id="item-3" class="todos-ecommerce">E-COMMERCE</li>
+      <!--<li id="item-4" class="todos-app_facebook">APP FACEBOOK</li>-->
       <li id="item-5" class="todos-mobile">MOBILE</li>
-      <li id="item-6" class="todos-sistemas">SISTEMAS</li>
+      <!--<li id="item-6" class="todos-sistemas">SISTEMAS</li>-->
     </ul>
-    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="" class="todos-sites" data-job="job1">
-    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="" class="todos-wordpress" data-job="job2">
-    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="" class="todos-app_facebook" data-job="job3">
-    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="" class="todos-mobile" data-job="job4">
-    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="" class="todos-sistemas" data-job="job5">
+    <img src="imagens/client_mrt.jpg" width="200" height="200" alt="MRT Arquitetura & Interiores" title="MRT Arquitetura & Interiores" class="todos-sites" data-job="job1">
+    <img src="imagens/client_decorakits.jpg" width="200" height="200" alt="DecoraKits" title="DecoraKits" class="todos-ecommerce" data-job="job2">
+    <img src="imagens/client_dorama.jpg" width="200" height="200" alt="Esse Dorama Te Indico" title="Esse Dorama Te Indico" class="todos-sites" data-job="job3">
+    <img src="imagens/prox3-mobile.jpg" width="200" height="200" alt="Prox3 Mobile" title="Prox3 Mobile" class="todos-mobile" data-job="job4">
+    <img src="imagens/client_vila.jpg" width="200" height="200" alt="Vila Santista" title="Vila Santista" class="todos-sites" data-job="job5">
     
     <div id="job1" class="body_info left">
     	<div class="shadow_info"></div>
       <div class="left_info left">
       	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
+        <span class="name_company left">MRT Arquitetura & Interiores <br>2013</span>
+        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, CSS, Wordpress</span>
+        <a target="_blank" href="http://mrtarquitetura.web931.uni5.net/novo/" class="link_company left">Ver site</a>
       </div>
       <div class="comment_client right">
       	<div class="text_comment left">
-      	“Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd”.
+        <strong>Descrição</strong><br><br>
+      	A Actmob é uma agência de marketing digital e contou com a gente para realizar esse projeto, fomos responsáveis pela programação do site e a agência pelo design.<br>O site foi feito em Wordpress e segue o padrão responsivo, dessa forma pode ser visualizado em qualquer dispositivo.
         </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
+        <!--<span class="name_client left">Nome do cliente</span>
+        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>-->
       </div>
     </div>
     
      <div id="job2" class="body_info left">
+    	<div class="shadow_info"></div>
+      <div class="left_info left">
+      	<span class="tag_job left">E-COMERCE</span>
+        <span class="name_company left">DecoraKits <br>2013</span>
+        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress</span>
+        <!--<a target="_blank" href="decorakits.com.br" class="link_company left">Ver site</a>-->
+      </div>
+      <div class="comment_client right">
+      	<div class="text_comment left">
+      	<strong>Descrição</strong><br><br>
+      	A Actmob é uma agência de marketing digital e contou com a gente para realizar esse projeto, fomos responsáveis pela programação do site e a agência pelo design.<br>O e-commerce foi feito em Wordpress, HTML5 e segue o padrão responsivo, dessa forma pode ser visualizado em qualquer dispositivo.
+        </div>
+      </div>
+    </div>
+    
+     <div id="job3" class="body_info left">
+    	<div class="shadow_info"></div>
+      <div class="left_info left">
+      	<span class="tag_job left">SITES</span>
+        <span class="name_company left">Esse Dorama Te Indico <br>2013</span>
+        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, CSS, Wordpress, SEO</span>
+        <a target="_blank" href="http://essedoramateindico.com.br/" class="link_company left">Veja o site</a>
+      </div>
+      <div class="comment_client right">
+      	<div class="text_comment left">
+      	<strong>Descrição</strong><br><br>
+      	Esse Dorama te indico é um blog sobre o mundo dos doramas e filmes japoneses.<br><br>
+        O blog foi desenvolvido em Wordpress e segue o padrão responsivo, dessa forma pode ser visualizado em qualquer dispositivo.
+        </div>
+      </div>
+    </div>
+    
+     <div id="job4" class="body_info left">
+    	<div class="shadow_info"></div>
+      <div class="left_info left">
+      	<span class="tag_job left">MOBILE</span>
+        <span class="name_company left">Prox3 <br>2013</span>
+        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, SEO</span>
+        <a target="_blank" href="http://m.prox3.com.br" class="link_company left">Visite o site</a>
+      </div>
+      <div class="comment_client right">
+      	<div class="text_comment left">
+        <strong>Descrição</strong><br><br>
+      	Esse é nosso site na versão mobile. O site se adapta em qualquer resolução móvel e qualquer sistema operacional, fique a vontade para fazer uma visita, a url é: m.prox3.com.br
+        </div>
+      </div>
+    </div>
+    
+     <div id="job5" class="body_info left">
+    	<div class="shadow_info"></div>
+      <div class="left_info left">
+      	<span class="tag_job left">SITES</span>
+        <span class="name_company left">Vila Santista <br>2013</span>
+        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, CSS, Wordpress</span>
+        <a target="_blank" href="http://vilasantista.com.br/" class="link_company left">Visitar site</a>
+      </div>
+      <div class="comment_client right">
+      	<div class="text_comment left">
+      	A Actmob é uma agência de marketing digital e contou com a gente para realizar esse projeto, fomos responsáveis pela programação do site e a agência pelo design.<br>O site foi feito em Wordpress e segue o padrão responsivo, dessa forma pode ser visualizado em qualquer dispositivo.
+        </div>
+      </div>
+    </div>
+    
+    
+    
+     <!--<div id="job20" class="body_info left">
     	<div class="shadow_info"></div>
       <div class="left_info left">
       	<span class="tag_job left">SITES</span>
@@ -132,331 +199,7 @@ $(document).ready(function(){
         <span class="name_client left">Nome do cliente</span>
         <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
       </div>
-    </div>
-    
-     <div id="job3" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-     <div id="job4" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-     <div id="job5" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="" class="todos-sites" data-job="job6">
-    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="" class="todos-wordpress" data-job="job7">
-    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="" class="todos-app_facebook" data-job="job8">
-    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="" class="todos-mobile" data-job="job9">
-    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="" class="todos-sistemas" data-job="job10">
-    
-    <div id="job6" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-     <div id="job7" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-     <div id="job8" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-     <div id="job9" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-     <div id="job10" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="" class="todos-sites" data-job="job11">
-    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="" class="todos-wordpress" data-job="job12">
-    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="" class="todos-app_facebook" data-job="job13">
-    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="" class="todos-mobile" data-job="job14">
-    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="" class="todos-sistemas" data-job="job15">
-    
-    <div id="job11" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-     <div id="job12" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-     <div id="job13" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-     <div id="job14" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-     <div id="job15" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="" class="todos-sites" data-job="job16">
-    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="" class="todos-wordpress" data-job="job17">
-    <img src="imagens/img_port.jpg" width="200" height="200" alt="" title="" class="todos-app_facebook" data-job="job18">
-    <img src="imagens/img_port2.jpg" width="200" height="200" alt="" title="" class="todos-mobile" data-job="job19">
-    <img src="imagens/img_port3.jpg" width="200" height="200" alt="" title="" class="todos-sistemas" data-job="job20">
-    
-    <div id="job16" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-     <div id="job17" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-     <div id="job18" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-     <div id="job19" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
-    
-     <div id="job20" class="body_info left">
-    	<div class="shadow_info"></div>
-      <div class="left_info left">
-      	<span class="tag_job left">SITES</span>
-        <span class="name_company left">Nome da empresa <br>2013</span>
-        <span class="tecnologic_use left"><strong>Tecnologia utilizada: </strong>PHP, Jquery, HTML5, CSS3, Wordpress, .NET, iOS, Android, SDK PHP (Facebook), SEO</span>
-        <a target="_blank" href="" class="link_company left">nomedaempresa.com.br</a>
-      </div>
-      <div class="comment_client right">
-      	<div class="text_comment left">
-      	"Ddashhhhdsa jjjdashhjd dasndasjdj sadasljf ljfcsj dasjdjsaj dasjkjdsa, dashhf djfhdhahsadjjh dans dnas dn fasndjf djhhfjds fajsjdsa afsdjadsj, dnasjf sndajhdaj danndjas ndsnkdan dsnjd nbfdkfshjf dnfsdjfjdn asndnh, sdahjsaj dsahdsad. Daskdsadh dsabdsakhd sa dsah, dsandasj, dashhdajh hsd ha dsahji dhhoawe fophjgdas idai fsdhif sdnoifadjdjkf fdshfhjdsh nvndfkhgf fjd".
-        </div>
-        <span class="name_client left">Nome do cliente</span>
-        <span class="name_company_comment left"><strong>Nome da empresa</strong></span>
-      </div>
-    </div>
+    </div>-->
     
   </div>
   <div id="footer">

@@ -68,7 +68,7 @@
           <li><a id="menuClientes" target="_self" href="#">Clientes</a></li>
           <li><a id="menuContato" target="_self" href="#">Contato</a></li>
           <li>|</li>
-          <li><a target="_self" href="portfolio/index.php">Portfolio</a></li>
+          <li><a target="_self" href="portfolio/">Portfolio</a></li>
           <!--<li><a target="_self" href="blog.php">Blog</a></li>-->
           <li style="margin-right:0"><a target="_self" href="https://www.facebook.com/prox3.digital">Facebook</a></li>
         </ul>
@@ -79,7 +79,7 @@
   <!-- Como Pensamos -->
   <div id="como-pensamos">
   	Mergulhar no universo de nossos parceiros, usar todo nosso Know-How e criatividade pra realizar projetos singulares e experiências marcantes.
-  	<a target="_self" href="portfolio.php" id="meet_work">Conheça nossos trabalhos.</a>
+  	<a target="_self" href="portfolio.php" id="meet_work">Conheça nossos trabalhos.<a id="servico" style="position:absolute"></a></a>
     <a target="_self" href="mailto:contato@prox3.com.br" id="tab_contact">contato@prox3.com.br</a>
   </div>
   <!-- Fim Como Pensamos -->
@@ -87,7 +87,7 @@
    <!-- Serviços -->
     <div id="body_services">
     	<div class="body_text_service" id="service_site">
-      	<div class="tag_service">Serviços</div>
+      	<div class="tag_service">Serviço</div>
         <div class="title_service"><strong>Sites</strong><br />Responsivo</div>
         <div class="text_service">
         	A imagem virtual de uma empresa, nos dias de hoje, pode ser <br />um fator vital para o fechamento de um grande negócio. Cuide <br />bem de sua aparência. Na Prox3, você encontra sites<br /> instituicionais, e-commerce, atualização e manutenção<br /> periódica.<br /><br />
@@ -97,7 +97,7 @@ Nosso diferencial é desenvolver sites responsivos, ou seja,<br /> <strong>sites
       </div>
       <img src="images/responsivo.png" width="492" height="431" alt="Site Responsivo" title="Site Responsivo" id="img_responsive" />
       <div class="body_text_service" id="app_mobile">
-      	<div class="tag_service">Serviços</div>
+      	<div class="tag_service">Serviço</div>
         <div class="title_service"><strong>Aplicativos</strong><br />Mobile</div>
         <div class="text_service">
         	Os smartphones estão em alta e o seu uso no<br /> ambiente corporativo se tornou uma constante.<br /> Através da <strong>criação de aplicativos e da adaptação de<br /> sites/blogs</strong> para estes aparelhos, a Prox3 leva a sua<br /> marca para o seu público, onde quer que ele esteja.
@@ -105,7 +105,7 @@ Nosso diferencial é desenvolver sites responsivos, ou seja,<br /> <strong>sites
       </div>
       <img src="images/app_facebook.jpg" width="416" height="362" alt="Aplicativo para facebook" title="Aplicativo para facebook" id="img_appFacebook" />
       <div class="body_text_service" id="app_facebook">
-      	<div class="tag_service">Serviços</div>
+      	<div class="tag_service">Serviço</div>
         <div class="title_service"><strong>Aplicativos</strong><br />Para Facebook</div>
         <div class="text_service">
         	Sua marca muito bem vista nas redes sociais. É<br /> isso que você quer. É isso que a Prox3 quer.<br /> Cuidamos da sua presença, neste ambiente,<br /> através do <strong>desenvolvimento de promoções,<br /> vendas personalizadas e outras ferramentas</strong>.<br /> Conte com a gente.
@@ -119,7 +119,7 @@ Nosso diferencial é desenvolver sites responsivos, ou seja,<br /> <strong>sites
         </div>
       </div>
       <div class="body_text_service" id="consult">
-      	<div class="tag_service">Serviços</div>
+      	<div class="tag_service">Serviço<a id="cliente" style="position:absolute"></a></div>
         <div class="title_service"><strong>Consultoria</strong></div>
         <div class="text_service">
         	<strong>Consultoria personalizada</strong> em<br /> informática, projetos e e-commerce.
@@ -165,7 +165,7 @@ Nosso diferencial é desenvolver sites responsivos, ou seja,<br /> <strong>sites
 		<div id="struct-contatos">
     	<div id="contatos">
       	<div class="content-prox3">
-          <div class="box-titulo-prox3">contato</div>
+          <div class="box-titulo-prox3">contato<a id="contato"></a></div>
           <div class="box-contatos">
           	<form id="form1" action="#" method="post">
           		<div>
