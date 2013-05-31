@@ -21,6 +21,10 @@
 							}
 						?>
           </div>
+          <div class="left" style="margin-top:5px">
+            <span class='st_fblike_buttons' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' displayText='fblike'></span>
+            <span class='st_plusone_buttons' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' displayText='plusone'></span>
+          </div>
           
 					<div class="content_post left"><?php the_content(); ?></div>
 				</div>			
@@ -31,9 +35,9 @@
 				</div>
 			<?php else: ?>
 				<div class="artigo">
-					<h2>Nada Encontrado</h2>
-					<p>Erro 404</p>
-					<p>Lamentamos mas não foram encontrados artigos.</p>
+					<span class="ops left">OPS...</span>
+					<span class="text_404">Nenhum artigo foi encontrado. <font id="back_404">Voltar</font></span>
+          <img src="http://prox3.com.br/blog/wp-content/themes/Prox3%20-%20Blog/images/404.png" style="position:absolute" width="483" height="269" alt="Artigo não encontrado" title="Artigo não encontrado" />
 				</div>			
 			<?php endif; ?>
 			

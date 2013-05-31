@@ -25,6 +25,18 @@
 			}
 		}
 		
+		$("#back_404").click(function(){
+			window.history.back();
+		});
+		
+		<?php
+			if(isset($_GET['s'])){
+		?>
+			
+			$("#footer").hide();
+			
+		<?php } ?>
+		
 		//$('#shadow_sidebar').height($('.artigo').height()+300);		
   });
 </script>
